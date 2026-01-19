@@ -9,7 +9,7 @@ import { Student as StudentModel } from '../models/student';
 export class Studentservice {
 
   // private apiUrl = 'http://localhost:5204/api/Students';
-    private apiUrl = 'https://studentms2.runasp.net/api/Students';
+    private apiUrl = 'https://studentms.runasp.net/api/Students';
 
   constructor(private https: HttpClient) { }
 

@@ -10,7 +10,7 @@ import { Injectable } from "@angular/core";
 
 export class UserService {
     // private apiURL = "http://localhost:5204/api/user/login";
-    private apiURL = "https://studentms2.runasp.net/api/user/login";
+    private apiURL = "https://studentms.runasp.net/api/user/login";
     
 
     constructor(private http: HttpClient) { }
